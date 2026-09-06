@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Meu Cardápio Digital — Pedidos online para o seu estabelecimento</title>
+    <meta
+      name="description"
+      content="Cardápio digital, pedidos online e gestão em um só lugar. Conheça a plataforma Meu Cardápio Digital."
+    />
+    <meta name="theme-color" content="#e31c5f" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="#topo" aria-label="Meu Cardápio Digital — início">
+          <span class="brand__mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M6 7h12l-1 12H7L6 7z" />
+              <path d="M9 7V5a3 3 0 0 1 6 0v2" />
+            </svg>
+          </span>
+          Meu Cardápio Digital
+        </a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-controls="site-nav"
+          aria-expanded="false"
+          aria-label="Abrir menu"
+        >
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 7h16M4 12h16M4 17h16" />
+          </svg>
+        </button>
+        <nav class="nav" id="site-nav" aria-label="Principal">
+          <a href="#beneficios">Benefícios</a>
+          <a href="#como-funciona">Como funciona</a>
+          <a href="#interesse" class="btn btn--cta btn--sm">Tenho interesse</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="topo">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__media" aria-hidden="true">
+          <img
+            src="assets/img/hero-food.jpg"
+            alt=""
+            width="1600"
+            height="900"
+            fetchpriority="high"
+          />
+        </div>
+        <div class="hero__shade" aria-hidden="true"></div>
+        <div class="hero__inner">
+          <div class="hero__copy">
+            <p class="hero__brand">
+              <span class="brand__mark" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M6 7h12l-1 12H7L6 7z" />
+                  <path d="M9 7V5a3 3 0 0 1 6 0v2" />
+                </svg>
+              </span>
+              Meu Cardápio Digital
+            </p>
+            <h1 id="hero-title">Receba pedidos pelo celular — sem complicação</h1>
+            <p class="hero__lead">
+              Cardápio online, pedidos e gestão em um só painel. Feito para
+              restaurantes, lanchonetes e delivery.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--cta" href="#interesse">Quero conhecer</a>
+              <a class="btn btn--ghost" href="#como-funciona">Como funciona</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section showcase" id="beneficios" aria-labelledby="beneficios-title">
+        <div class="container">
+          <div class="section__head reveal">
+            <h2 id="beneficios-title">Tudo que o estabelecimento precisa no dia a dia</h2>
+            <p>
+              Do cardápio ao acompanhamento do cliente — a operação fica
+              organizada e o pedido chega certo.
+            </p>
+          </div>
+
+          <article class="feature-row reveal">
+            <div class="feature-row__media">
+              <img
+                src="assets/img/feature-menu-phone.jpg"
+                alt="Celular exibindo cardápio digital com produtos e preços"
+                width="900"
+                height="675"
+                loading="lazy"
+              />
+            </div>
+            <div class="feature-row__copy">
+              <h3>Cardápio digital</h3>
+              <p>
+                Monte categorias, produtos e destaques. O cliente abre o link e
+                pede pelo celular — sem baixar app.
+              </p>
+            </div>
+          </article>
+
+          <article class="feature-row feature-row--reverse reveal">
+            <div class="feature-row__media">
+              <img
+                src="assets/img/feature-pedidos.jpg"
+                alt="Painel de gestão de pedidos com colunas de status"
+                width="1200"
+                height="675"
+                loading="lazy"
+              />
+            </div>
+            <div class="feature-row__copy">
+              <h3>Pedidos online e gestão</h3>
+              <p>
+                Delivery, retirada ou balcão. O pedido entra no kanban: recebido,
+                em preparo, pronto e entregue. Sua equipe vê o que fazer.
+              </p>
+            </div>
+          </article>
+
+          <article class="feature-row reveal">
+            <div class="feature-row__media">
+              <img
+                src="assets/img/feature-tracking.jpg"
+                alt="Cliente acompanhando status do pedido no celular"
+                width="900"
+                height="675"
+                loading="lazy"
+              />
+            </div>
+            <div class="feature-row__copy">
+              <h3>Acompanhamento pelo cliente</h3>
+              <p>
+                O cliente acompanha o status do pedido. Menos ligações
+                perguntando “já saiu?” — mais tempo para a cozinha.
+              </p>
+            </div>
+          </article>
+
+          <div class="benefits reveal">
+            <article class="benefit">
+              <div class="benefit__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="8" r="3" />
+                  <path d="M5 20a7 7 0 0 1 14 0" />
+                </svg>
+              </div>
+              <h3>Fácil para o estabelecimento</h3>
+              <p>
+                Cadastre produtos, horários, entrega e pagamentos sem depender
+                de técnico.
+              </p>
+            </article>
+            <article class="benefit">
+              <div class="benefit__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 7h16v12H4z" />
+                  <path d="M8 7V5a4 4 0 0 1 8 0v2" />
+                </svg>
+              </div>
+              <h3>Menos papel, menos erro</h3>
+              <p>
+                Pedidos digitais entram certos no painel — sem anotação
+                confusa no balcão.
+              </p>
+            </article>
+            <article class="benefit">
+              <div class="benefit__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 3v18M5 10l7-7 7 7" />
+                  <path d="M5 14h14" />
+                </svg>
+              </div>
+              <h3>Pronto para delivery</h3>
+              <p>
+                Feito para o ritmo do dia a dia: pico de pedidos, status claros
+                e operação sob controle.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="como-funciona" aria-labelledby="como-title">
+        <div class="container">
+          <div class="section__head reveal">
+            <h2 id="como-title">Como funciona</h2>
+            <p>Em três passos seu estabelecimento começa a receber pedidos.</p>
+          </div>
+          <ol class="steps reveal">
+            <li class="step">
+              <figure class="step__thumb">
+                <img
+                  src="assets/img/feature-menu-phone.jpg"
+                  alt=""
+                  width="400"
+                  height="300"
+                  loading="lazy"
+                />
+              </figure>
+              <h3>Cadastre o cardápio</h3>
+              <p>
+                Inclua categorias, produtos, preços e fotos. Defina horários e
+                áreas de entrega.
+              </p>
+            </li>
+            <li class="step">
+              <figure class="step__thumb">
+                <img
+                  src="assets/img/feature-tracking.jpg"
+                  alt=""
+                  width="400"
+                  height="300"
+                  loading="lazy"
+                />
+              </figure>
+              <h3>Compartilhe o link</h3>
+              <p>
+                Divulgue no WhatsApp, Instagram ou QR Code na mesa. O cliente
+                pede sozinho.
+              </p>
+            </li>
+            <li class="step">
+              <figure class="step__thumb">
+                <img
+                  src="assets/img/feature-pedidos.jpg"
+                  alt=""
+                  width="400"
+                  height="300"
+                  loading="lazy"
+                />
+              </figure>
+              <h3>Gerencie no painel</h3>
+              <p>
+                Acompanhe cada pedido no kanban, atualize o status e mantenha a
+                cozinha organizada.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section form-section" id="interesse" aria-labelledby="form-title">
+        <div class="container">
+          <div class="form-panel reveal">
+            <div class="form-panel__intro">
+              <div class="form-panel__visual">
+                <img
+                  src="assets/img/hero-food.jpg"
+                  alt="Ambiente de restaurante com pedidos e cardápio"
+                  width="800"
+                  height="450"
+                  loading="lazy"
+                />
+              </div>
+              <h2 id="form-title">Quer conhecer a plataforma?</h2>
+              <p>
+                Preencha o formulário. Entramos em contato para apresentar o
+                Meu Cardápio Digital ao seu estabelecimento.
+              </p>
+              <ul class="form-panel__list">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                    <path d="M5 13l4 4L19 7" />
+                  </svg>
+                  Sem compromisso — só uma conversa sobre o seu negócio
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                    <path d="M5 13l4 4L19 7" />
+                  </svg>
+                  Resposta pelo WhatsApp ou e-mail
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                    <path d="M5 13l4 4L19 7" />
+                  </svg>
+                  Feito para o dia a dia de delivery e salão
+                </li>
+              </ul>
+            </div>
+
+            <form id="lead-form" novalidate>
+              <div
+                id="form-feedback"
+                class="form-feedback"
+                aria-live="polite"
+              ></div>
+
+              <div class="hp" aria-hidden="true">
+                <label for="website">Website</label>
+                <input
+                  type="text"
+                  id="website"
+                  name="website"
+                  tabindex="-1"
+                  autocomplete="off"
+                />
+              </div>
+
+              <div class="form-grid form-grid--2">
+                <div class="field">
+                  <label for="nome">Nome <span class="req">*</span></label>
+                  <input id="nome" name="nome" type="text" autocomplete="name" required />
+                  <span class="field__error" data-error-for="nome"></span>
+                </div>
+                <div class="field">
+                  <label for="estabelecimento"
+                    >Nome do estabelecimento <span class="req">*</span></label
+                  >
+                  <input
+                    id="estabelecimento"
+                    name="estabelecimento"
+                    type="text"
+                    autocomplete="organization"
+                    required
+                  />
+                  <span class="field__error" data-error-for="estabelecimento"></span>
+                </div>
+                <div class="field">
+                  <label for="whatsapp">WhatsApp <span class="req">*</span></label>
+                  <input
+                    id="whatsapp"
+                    name="whatsapp"
+                    type="tel"
+                    inputmode="tel"
+                    placeholder="(11) 99999-9999"
+                    autocomplete="tel"
+                    required
+                  />
+                  <span class="field__error" data-error-for="whatsapp"></span>
+                </div>
+                <div class="field">
+                  <label for="email">E-mail <span class="req">*</span></label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    autocomplete="email"
+                    required
+                  />
+                  <span class="field__error" data-error-for="email"></span>
+                </div>
+                <div class="field">
+                  <label for="cidadeEstado"
+                    >Cidade / Estado <span class="req">*</span></label
+                  >
+                  <input
+                    id="cidadeEstado"
+                    name="cidadeEstado"
+                    type="text"
+                    placeholder="Ex.: São Paulo / SP"
+                    required
+                  />
+                  <span class="field__error" data-error-for="cidadeEstado"></span>
+                </div>
+                <div class="field">
+                  <label for="tipoEstabelecimento"
+                    >Tipo de estabelecimento <span class="req">*</span></label
+                  >
+                  <select id="tipoEstabelecimento" name="tipoEstabelecimento" required>
+                    <option value="">Selecione…</option>
+                  </select>
+                  <span class="field__error" data-error-for="tipoEstabelecimento"></span>
+                </div>
+              </div>
+
+              <div class="field" style="margin-top: 1rem">
+                <label for="mensagem">Mensagem (opcional)</label>
+                <textarea
+                  id="mensagem"
+                  name="mensagem"
+                  rows="3"
+                  placeholder="Conte um pouco sobre o seu estabelecimento"
+                ></textarea>
+                <span class="field__error" data-error-for="mensagem"></span>
+              </div>
+
+              <div class="field field--check" style="margin: 1rem 0 1.25rem">
+                <input id="receberInfo" name="receberInfo" type="checkbox" checked />
+                <label for="receberInfo"
+                  >Quero receber informações sobre a plataforma.</label
+                >
+              </div>
+
+              <button class="btn btn--cta btn--block" type="submit" id="submit-lead">
+                Quero conhecer a plataforma
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <p>
+          © <span id="year"></span>
+          <strong>Meu Cardápio Digital</strong>
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script src="config.js"></script>
+    <script src="assets/js/leads.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
